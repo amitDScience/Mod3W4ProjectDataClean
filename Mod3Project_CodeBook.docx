@@ -1,0 +1,264 @@
+NOTES
+1.	Ideally the variable names must be in lower case but to make it more readable, I have kept first letter in upper case for different words in same variable name
+2.	Prefix “t” in some variables’ names represents time domain signals
+3.	Prefix “f” in some variables’ names represents frequency domain signals
+4.	I have considered angular data as well because these measurements include one of the mean measurements and as per instructions, we had to extract measurements on the mean and standard deviation for each measurement
+
+VARIABLES 
+
+1.	subject : Integer class, represents each experimental subject
+Value range: From 1:30 as total 30 people participated 
+
+2.	activity : Character class, represents various activities performed by each participant
+Various Activity levels: {walking, walkingup, walkingdown, standing, sitting, laying}
+
+3.	tbodyAccMeanX : Numeric class, represents mean of body acceleration in X direction
+Value range: [-1, 1]
+
+4.	tbodyAccMeanY : Numeric class, represents mean of body acceleration in Y direction
+Value range: [-1, 1]
+
+5.	tbodyAccMeanZ : Numeric class, represents mean of body acceleration in Z direction
+Value range: [-1, 1]
+
+6.	tbodyAccStanDevX : Numeric class, represents standard deviation of body acceleration in X direction
+Value range: [-1, 1]
+
+7.	tbodyAccStanDevY : Numeric class, represents standard deviation of body acceleration in Y direction
+Value range: [-1, 1]
+
+8.	tbodyAccStanDevZ : Numeric class, represents standard deviation of body acceleration in Z direction
+Value range: [-1, 1]
+
+9.	tGravityAccMeanX : Numeric class, represents mean of gravitational acceleration in X direction
+Value range: [-1, 1]
+
+10.	tGravityAccMeanY : Numeric class, represents mean of gravitational acceleration in Y direction
+Value range: [-1, 1] 
+
+11.	tGravityAccMeanZ: Numeric class, represents mean of gravitational acceleration in Z direction
+Value range: [-1, 1] 
+
+12.	tGravityAccStanDevX : Numeric class, represents standard deviation of gravitational acceleration in X direction
+Value range: [-1, 1]
+
+13.	tGravityAccStanDevY : Numeric class, represents standard deviation of gravitational acceleration in Y direction
+Value range: [-1, 1]
+
+14.	tGravityAccStanDevZ : Numeric class, represents standard deviation of gravitational acceleration in Z direction
+Value range: [-1, 1]
+
+15.	tbodyAccJerkMeanX : Numeric class, represents mean of jerk caused by body acceleration in X direction
+Value range: [-1, 1]
+
+16.	tbodyAccJerkMeanY : Numeric class, represents mean of jerk caused by body acceleration in Y direction
+Value range: [-1, 1]
+
+17.	tbodyAccJerkMeanZ : Numeric class, represents mean of jerk caused by body acceleration in Z direction
+Value range: [-1, 1]
+
+18.	tbodyAccJerkStanDevX : Numeric class, represents standard deviation of jerk caused by body acceleration in X direction
+Value range: [-1, 1]
+
+19.	tbodyAccJerkStanDevY : Numeric class, represents standard deviation of jerk caused by body acceleration in Y direction
+Value range: [-1, 1]
+
+20.	tbodyAccJerkStanDevZ : Numeric class, represents standard deviation of jerk caused by body acceleration in Z direction
+Value range: [-1, 1]
+
+21.	tbodyGyroMeanX : Numeric class, represents mean of gyroscopic angular velocity of body in X direction
+Value range: [-1, 1]
+
+22.	tbodyGyroMeanY : Numeric class, represents mean of gyroscopic angular velocity of body in Y direction
+Value range: [-1, 1]
+
+23.	tbodyGyroMeanZ : Numeric class, represents mean of gyroscopic angular velocity of body in Z direction
+Value range: [-1, 1]
+
+24.	tbodyGyroStanDevX : Numeric class, represents standard deviation of gyroscopic angular velocity of body in X direction
+Value range: [-1, 1]
+
+25.	tbodyGyroStanDevY : Numeric class, represents standard deviation of gyroscopic angular velocity of body in Y direction
+Value range: [-1, 1]
+
+26.	tbodyGyroStanDevZ : Numeric class, represents standard deviation of gyroscopic angular velocity of body in Z direction
+Value range: [-1, 1] 
+
+27.	tbodyGyroJerkMeanX : Numeric class, represents mean of gyroscopic jerk of body in X direction
+Value range: [-1, 1]
+
+28.	tbodyGyroJerkMeanY : Numeric class, represents mean of gyroscopic jerk of body in Y direction
+Value range: [-1, 1]
+
+29.	tbodyGyroJerkMeanZ : Numeric class, represents mean of gyroscopic jerk of body in Z direction
+Value range: [-1, 1]
+
+30.	tbodyGyroJerkStanDevX : Numeric class, represents standard deviation of gyroscopic jerk of body in X direction
+Value range: [-1, 1]
+
+31.	tbodyGyroJerkStanDevY : Numeric class, represents standard deviation of gyroscopic jerk of body in Y direction
+Value range: [-1, 1]
+
+32.	tbodyGyroJerkStanDevZ : Numeric class, represents standard deviation of gyroscopic jerk of body in Z direction
+Value range: [-1, 1]
+
+33.	tbodyAccMagMean : Numeric class, represents mean of magnetic acceleration of body 
+Value range: [-1, 1]
+ 
+34.	tbodyAccMagStanDev : Numeric class, represents standard deviation of magnetic acceleration of body
+Value range: [-1, 1]
+
+35.	tGravityAccMagMean : Numeric class, represents mean of magnetic acceleration due to gravity
+Value range: [-1, 1] 
+
+36.	tGravityAccMagStanDev : Numeric class, represents standard deviation of magnetic acceleration due to gravity
+Value range: [-1, 1]
+
+37.	tbodyAccJerkMagMean : Numeric class, represents mean of body jerk caused by magnetic acceleration
+Value range: [-1, 1]
+
+38.	tbodyAccJerkMagStanDev : Numeric class, represents standard deviation of body jerk caused by magnetic acceleration
+Value range: [-1, 1]
+
+39.	tbodyGyroMagMean : Numeric class, represents mean of gyroscopic velocity caused by magnetic interaction
+Value range: [-1, 1]
+
+40.	tbodyGyroMagStanDev : Numeric class, represents standard deviation of gyroscopic velocity caused by magnetic interaction
+Value range: [-1, 1]
+
+41.	tbodyGyroJerkMagMean : Numeric class, represents mean of gyroscopic body jerk caused by magnetic interaction
+Value range: [-1, 1]
+
+42.	tbodyGyroJerkMagStanDev : Numeric class, represents standard deviation of gyroscopic body jerk caused by magnetic interaction
+Value range: [-1, 1]
+
+43.	fbodyAccMeanX : Numeric class, represents mean of body acceleration in X direction
+Value range: [-1, 1]
+
+44.	fbodyAccMeanY : Numeric class, represents mean of body acceleration in Y direction
+Value range: [-1, 1]
+
+45.	fbodyAccMeanZ : Numeric class, represents mean of body acceleration in Z direction
+Value range: [-1, 1]
+
+46.	fbodyAccStanDevX : Numeric class, represents standard deviation of body acceleration in X direction
+Value range: [-1, 1]
+
+47.	fbodyAccStanDevY : Numeric class, represents standard deviation of body acceleration in Y direction
+Value range: [-1, 1]
+
+48.	fbodyAccStanDevZ : Numeric class, represents standard deviation of body acceleration in Z direction
+Value range: [-1, 1]
+
+49.	fbodyAccMeanFreqX : Numeric class, represents mean of frequency due to body acceleration in X direction
+Value range: [-1, 1]
+
+50.	fbodyAccMeanFreqY : Numeric class, represents mean of frequency due to body acceleration in Y direction
+Value range: [-1, 1]
+
+51.	fbodyAccMeanFreqZ : Numeric class, represents mean of frequency due to body acceleration in Z direction
+Value range: [-1, 1]
+
+52.	fbodyAccJerkMeanX : Numeric class, represents mean of jerk caused by body acceleration in X direction
+Value range: [-1, 1]
+
+53.	fbodyAccJerkMeanY : Numeric class, represents mean of jerk caused by body acceleration in Y direction
+Value range: [-1, 1]
+
+54.	fbodyAccJerkMeanZ : Numeric class, represents mean of jerk caused by body acceleration in Z direction
+Value range: [-1, 1]
+
+55.	fbodyAccJerkStanDevX : Numeric class, represents standard deviation of jerk caused by body acceleration in X direction
+Value range: [-1, 1]
+
+56.	fbodyAccJerkStanDevY : Numeric class, represents standard deviation of jerk caused by body acceleration in Y direction
+Value range: [-1, 1]
+
+57.	fbodyAccJerkStanDevZ : Numeric class, represents standard deviation of jerk caused by body acceleration in Z direction
+Value range: [-1, 1]
+
+58.	fbodyAccJerkMeanFreqX : Numeric class, represents mean of frequency due to body acceleration jerk in X direction
+Value range: [-1, 1]
+
+59.	fbodyAccJerkMeanFreqY : Numeric class, represents mean of frequency due to body acceleration jerk in Y direction
+Value range: [-1, 1]
+
+60.	fbodyAccJerkMeanFreqZ : Numeric class, represents mean of frequency due to body acceleration jerk in Z direction
+Value range: [-1, 1]
+
+61.	tbodyGyroMeanX : Numeric class, represents mean of gyroscopic angular velocity of body in X direction
+Value range: [-1, 1]
+
+62.	fbodyGyroMeanY : Numeric class, represents mean of gyroscopic angular velocity of body in Y direction
+Value range: [-1, 1]
+
+63.	fbodyGyroMeanZ : Numeric class, represents mean of gyroscopic angular velocity of body in Z direction
+Value range: [-1, 1]
+
+64.	fbodyGyroStanDevX : Numeric class, represents standard deviation of gyroscopic angular velocity of body in X direction
+Value range: [-1, 1]
+
+65.	fbodyGyroStanDevY : Numeric class, represents standard deviation of gyroscopic angular velocity of body in Y direction
+Value range: [-1, 1]
+
+66.	fbodyGyroStanDevZ : Numeric class, represents standard deviation of gyroscopic angular velocity of body in Z direction
+Value range: [-1, 1] 
+
+67.	fbodyGyroMeanFreqX : Numeric class, represents mean of frequency due to gyroscopic velocity in X direction
+Value range: [-1, 1]
+
+68.	fbodyGyroMeanFreqY : Numeric class, represents mean of frequency due to gyroscopic velocity in Y direction
+Value range: [-1, 1]
+
+69.	fbodyGyroMeanFreqZ : Numeric class, represents mean of frequency due to gyroscopic velocity in Z direction
+Value range: [-1, 1]
+
+70.	fbodyAccMagMean : Numeric class, represents mean of magnetic acceleration of body 
+Value range: [-1, 1]
+ 
+71.	fbodyAccMagStanDev : Numeric class, represents standard deviation of magnetic acceleration of body
+Value range: [-1, 1]
+
+72.	fbodyAccMagMeanFreq : Numeric class, represents mean of frequency due to body acceleration due to magnetic interaction
+Value range: [-1, 1]
+
+73.	fbodyAccJerkMagMean : Numeric class, represents mean of body jerk caused by body acceleration due to magnetic acceleration
+Value range: [-1, 1]
+
+74.	fbodyAccJerkMagStanDev : Numeric class, represents standard deviation of body jerk caused by body acceleration due to magnetic acceleration
+Value range: [-1, 1]
+
+75.	fbodyAccJerkMagMeanFreq : Numeric class, represents mean of frequency due to body acceleration due to magnetic interaction
+Value range: [-1, 1]
+
+76.	fbodyGyroMagMean : Numeric class, represents mean of gyroscopic velocity caused by magnetic interaction
+Value range: [-1, 1]
+
+77.	fbodyGyroMagStanDev : Numeric class, represents standard deviation of gyroscopic velocity caused by magnetic interaction
+Value range: [-1, 1]
+
+78.	fbodyGyroMagMeanFreq : Numeric class, represents mean of frequency due to body gyroscopic acceleration due to magnetic interaction
+Value range: [-1, 1] 
+
+79.	fbodyGyroJerkMagMean : Numeric class, represents mean of gyroscopic body jerk caused by magnetic interaction
+Value range: [-1, 1]
+
+80.	fbodyGyroJerkMagStanDev : Numeric class, represents standard deviation of gyroscopic body jerk caused by magnetic interaction
+Value range: [-1, 1]
+
+81.	fbodyGyroJerkMagMeanFreq : Numeric class, represents mean of frequency due to body gyroscopic jerk due to magnetic interaction
+Value range: [-1, 1] 
+
+82.	angletbodyAccMeanAndgravity : Numeric class, it represents angle in radians between body acceleration mean and gravity
+
+83.	angletbodyAccJerkMeanAndgravityMean :Numeric class, it represents angle in radians between mean body acceleration jerk and mean gravity
+
+84.	angletbodyGyroMeanAndgravityMean : Numeric class, it represents angle in radians between body gyroscopic mean velocity and gravity mean
+
+85.	angletbodyGyroJerkMeanAndgravityMean : Numeric class, it represents angle in radians between body gyroscopic jerk mean and gravity mean
+
+86.	angleXAndgravityMean : Numeric class, it represents angle in radians between X axis and gravity mean vector
+
+87.	angleYAndgravityMean : Numeric class, it represents angle in radians between Y axis and gravity mean vector
+
+88.	angleZAndgravityMean : Numeric class, it represents angle in radians between Z axis and gravity mean vector
