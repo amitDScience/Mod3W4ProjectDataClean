@@ -31,3 +31,16 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 ## 3.0 Use descriptive activity names to name the activities in the data set
 - In modified merged data set with right column names, replace all numeric representation of activities with descriptive names using sub function
 - Mapping of variables is (1,walking), (2, walkingup), (3, walkingdown), (4, sitting), (5, standing), (6, laying)
+
+## 4.0	Assign appropriate labels to the data set with descriptive variable names
+- Remove "-" from the column variable names
+- Remove "(" and ")" from the column variable names
+- Convert "Body" to "body" in the column variable names
+- Replace "bodybody" with "body" in the column variable names
+- Replace "," with "And" in the column variable names for angle variables
+- Replace "mean" with "Mean" in the column variable names for better readability
+- Replace "std" with "StanDev" in the column variable names for better readability
+
+## 5.0	Create a second, independent tidy data set with the average of each variable for each activity and each subject
+- Test
+- End
