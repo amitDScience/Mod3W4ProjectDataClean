@@ -48,5 +48,12 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 - Replace "std" with "StanDev" in the column variable names for better readability
 
 ## 5.0	Create a second, independent tidy data set with the average of each variable for each activity and each subject
-- Test
-- End
+- Split modified merged data on two levels (subject id & activity)
+- Evaluate column means for all the columns except the first two columns which represents "subject id" and "activity" performed
+- Perform matrix transpose and assign it to new variable
+- Convert resultant matrix to data frame
+- In the data frame, each row name would have subject id linked with activity with a "." as we had performed 2 level split
+- Separate subject id and activity from the row names using strsplit
+- Using column bind, insert subject id and activity column in resultant data set
+- Remove "." from rownames
+- Create "Mod3_W4_S5_Proj.txt" under UCI HAR Dataset directory using write.data with row.name = FALSE argument
