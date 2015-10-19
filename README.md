@@ -4,7 +4,7 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 - Script assumes that the data is placed under "UCI HAR Dataset" directory
 - Download the script and place it in the folder one level up the data folder "UCI HAR Dataset"
 - Source the script using source("run_analysis.R") command
-- Script will create Mod3_W4_S5_Proj.txt under "UCI HAR Dataset" directory
+- Script will create tidy data set file Mod3_W4_S5_Proj.txt under "UCI HAR Dataset" directory
 
 ## 1.0 Merging the training and test data set
 - Check "UCI HAR Dataset" data directory
