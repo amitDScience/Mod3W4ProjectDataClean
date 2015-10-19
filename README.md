@@ -27,3 +27,7 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 - Identify column index for the values containing string [mM][eE][aA][nN] or [sS][tT][dD]
 - Identify those variables and read them in character vector 
 - Assign those variables as column names to merged data frame for column 3 onwards as first column name is "subject" and second column name is "activity"
+
+## 3.0 Use descriptive activity names to name the activities in the data set
+- In modified merged data set with right column names, replace all numeric representation of activities with descriptive names using sub function
+- Mapping of variables is (1,walking), (2, walkingup), (3, walkingdown), (4, sitting), (5, standing), (6, laying)
