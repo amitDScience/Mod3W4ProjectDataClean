@@ -21,3 +21,9 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 
 ### Merge final training and final test data set into one data set
 - Perform row bind to merge final training data and final test data
+
+## 2.0 2.	Extracts only the measurements on the mean and standard deviation for each measurement
+- Read data from features.txt
+- Identify column index for the values containing string [mM][eE][aA][nN] or [sS][tT][dD]
+- Identify those variables and read them in character vector 
+- Assign those variables as column names to merged data frame
