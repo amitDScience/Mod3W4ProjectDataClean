@@ -10,6 +10,7 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 - Read test/subject_test.txt and assign "subject" as column name
 - Read test/y_test.txt and assign "activity" as column name
 - Perform column bind for these three data sets to create final data set for test data
+
 ### Create final train data set
 - Read test/X_train.txt in data frame
 - Read test/subject_train.txt and assign "subject" as column name
