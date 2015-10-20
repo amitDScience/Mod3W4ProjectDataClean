@@ -15,15 +15,15 @@ Repository for Project work assigned for Module3 - Getting &amp; Cleaning Data
 - Read test/X_test.txt in data frame
 - Read test/subject_test.txt and assign "subject" as column name
 - Read test/y_test.txt and assign "activity" as column name
-- These specific column names were given to identify these columns clearly in merged final train data set
+- These specific column names were given to identify these columns clearly in merged final test data set
 - Perform column bind for these three data sets to create final data set for test data
 
-### Create final train data set
+### Create final training data set
 - Read test/X_train.txt in data frame
 - Read test/subject_train.txt and assign "subject" as column name
 - Read test/y_train.txt and assign "activity" as column name
-- These specific column names were given to identify these columns clearly in merged final train data set
-- Perform column bind for these three data sets to create final data set for train data
+- These specific column names were given to identify these columns clearly in merged final training data set
+- Perform column bind for these three data sets to create final data set for training data
 
 ### Merge final training and final test data set into one data set
 - Perform row bind to merge final training data and final test data
